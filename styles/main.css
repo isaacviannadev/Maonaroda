@@ -1,0 +1,42 @@
+:root {
+    --title-color: #e2c102;
+    --primary-color: #463b00;
+    --secondary-color: #f1e390;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding: 0 20px; */
+}
+
+html {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+}
+
+body {
+    background: #e8e8e8;
+    --webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Patua One', cursive;
+    color: var(--primary-color);
+}
